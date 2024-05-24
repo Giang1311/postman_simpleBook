@@ -17,5 +17,12 @@ API được lựa chọn cho bài tập này là **Simple Books API**, một AP
   - 'POST /orders': Allows you to submit a new order. Requires authentication.
  
 ## Các Trường Hợp Kiểm Thử
-Các trường hợp kiểm thử chính cho API này bao gồm:
-1.
+## Kiểm thử thành công
+1. Kiểm thử lấy thông tin danh sách Books
+   - Mô tả: Kiểm thử API với lấy danh sách Books với type là non-fiction.
+   - **Phương thức: GET
+   - Endpoint: `https://simple-books-api.glitch.me/books/`
+   - Mong đợi: HTTP Status 200, thông tin về Books type non-fiction
+   - ![image]![Screenshot (45)](https://github.com/Giang1311/postman_simpleBook/assets/96896545/937612f9-fe2d-41e4-9e41-d30016cc513a)
+  
+
