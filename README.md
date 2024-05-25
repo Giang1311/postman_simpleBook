@@ -23,24 +23,24 @@ API được lựa chọn cho bài tập này là **Simple Books API**, một AP
    - **Phương thức: GET
    - Endpoint: `https://simple-books-api.glitch.me/books/`
    - Mong đợi: HTTP Status 200, thông tin về Books type non-fiction
-   - ![image]![Screenshot (45)](https://github.com/Giang1311/postman_simpleBook/assets/96896545/937612f9-fe2d-41e4-9e41-d30016cc513a)
+   - ![Screenshot (45)](https://github.com/Giang1311/postman_simpleBook/assets/96896545/937612f9-fe2d-41e4-9e41-d30016cc513a)
 2. **Kiểm thử lấy thông tin Books bằng ID**
    - Mô tả: Kiểm thử API với ID Books hợp lệ.
    - Phương thức: GET
    - Endpoint: `https://simple-books-api.glitch.me/books/`
    - Mong đợi: HTTP Status 200, thông tin về Books cụ thể (ví dụ Book có ID là 5).
-   - ![image]![Screenshot (46)](https://github.com/Giang1311/postman_simpleBook/assets/96896545/36ba776c-fd8e-4191-b527-d80c6a665a9b)
+   - ![Screenshot (46)](https://github.com/Giang1311/postman_simpleBook/assets/96896545/36ba776c-fd8e-4191-b527-d80c6a665a9b)
 ## Kiểm thử thất bại
 1. Kiểm thử với Books không hợp lệ
    - Mô tả: Kiểm thử API khi sai type của Books.
    - Phương thức: GET
    - Mong đợi: HTTP Status 404, thông báo lỗi "Not Found".
-   - ![image]![failed1](https://github.com/Giang1311/postman_simpleBook/assets/96896545/4e969dec-2565-45e3-b745-814469d1b7b6)
+   - ![failed1](https://github.com/Giang1311/postman_simpleBook/assets/96896545/4e969dec-2565-45e3-b745-814469d1b7b6)
 2. Kiểm thử với ID Books không hợp lệ
    - Mô tả: Kiểm thử API khi sai ID của Books.
    - Phương thức: GET
    - Mong đợi: HTTP Status 404, thông báo lỗi "Not Found".
-   - ![image]![failed2](https://github.com/Giang1311/postman_simpleBook/assets/96896545/2e04fe77-49e5-46e4-bc7b-84b0ae1ac51f)
+   - ![failed2](https://github.com/Giang1311/postman_simpleBook/assets/96896545/2e04fe77-49e5-46e4-bc7b-84b0ae1ac51f)
 
 
 ## Báo Cáo Kiểm Thử Chi Tiết
