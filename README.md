@@ -9,7 +9,7 @@ Mục tiêu của bài tập này là thực hành kiểm thử API bằng cách
 API được lựa chọn cho bài tập này là **Simple Books API**, một API cho phép người dùng lưu trữ sách.
 
 ## Phân Tích Tài Liệu API
-Để hiểu rõ các chức năng và điểm cuối của OpenWeatherMap API, tài liệu API đã được tham khảo:
+Để hiểu rõ các chức năng và điểm cuối Simple Books API, tài liệu API đã được tham khảo:
 - **Điểm cuối chính**: `https://simple-books-api.glitch.me`
 - 1 vài endpoint:
   - 'GET /books': Returns a list of books.
@@ -53,7 +53,7 @@ API được lựa chọn cho bài tập này là **Simple Books API**, một AP
 
 **Kết Quả Kiểm Thử:**
 - Tất cả các trường hợp kiểm thử được thực hiện và kết quả phù hợp với mong đợi.
-- API hoạt động đúng với thành phố hợp lệ và xử lý các lỗi một cách thích hợp khi cung cấp dữ liệu không hợp lệ hoặc thiếu API key.
+- API hoạt động đúng với danh sachhs hợp lệ và xử lý các lỗi một cách thích hợp khi cung cấp dữ liệu không hợp lệ.
 
 **Khuyến Nghị:**
 - API hoạt động tốt và xử lý các lỗi đúng cách. Khuyến nghị duy trì tài liệu chi tiết và cung cấp các ví dụ cụ thể để hỗ trợ người dùng API.
